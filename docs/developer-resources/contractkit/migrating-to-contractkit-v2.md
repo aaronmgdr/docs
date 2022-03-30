@@ -57,7 +57,7 @@ Most changes are about eliminating the need to construct an entire kit to use ot
 
 #### IdentityMetadataWrapper (idendity/metadata.ts)
 
-This had functions that took a `kit` as a parameter. Now it takes an AccountsWrapper class. 
+This had functions that took a `kit` as a parameter. Now it takes an AccountsWrapper class.
 
 This change was done so that `kit` was not required to be passed into all the classes and functions that use `IdentityMetadataWrapper`.
 
